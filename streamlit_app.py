@@ -11,9 +11,11 @@ num_users = st.sidebar.number_input("Number of Participants", min_value=1, step=
 user_contributions = {}
 total_investment = 0
 
+default_currency = "CHF"
+
 for i in range(num_users):
     name = st.sidebar.text_input(f"Participant {i+1} Name", f"User {i+1}")
-    contribution = st.sidebar.number_input(f"{name}'s Monthly Investment ($)", min_value=0.0, value=500.0)
+    contribution = st.sidebar.number_input(f"{name}'s Monthly Investment ({default_currency})", min_value=0.0, value=500.0)
     user_contributions[name] = contribution
     total_investment += contribution
 
@@ -26,8 +28,8 @@ if "products" not in st.session_state:
     st.session_state["products"] = []
 
 product_name = st.sidebar.text_input("Product Name")
-buy_price = st.sidebar.number_input("Purchase Price ($)", min_value=0.0, format="%.2f")
-sell_price = st.sidebar.number_input("Selling Price ($)", min_value=0.0, format="%.2f")
+buy_price = st.sidebar.number_input(f"Purchase Price ({default_currency})", min_value=0.0, format="%.2f")
+sell_price = st.sidebar.number_input(f"Selling Price ({default_currency})", min_value=0.0, format="%.2f")
 sales = st.sidebar.number_input("Units Sold", min_value=0, step=1)
 
 if st.sidebar.button("➕ Add Product"):
@@ -44,7 +46,7 @@ if st.sidebar.button("➕ Add Product"):
 st.subheader("📦 Product List")
 for i, product in enumerate(st.session_state["products"]):
     col1, col2, col3 = st.columns([3, 1, 1])
-    col1.text(f"{product['name']} - Bought: ${product['buy_price']}, Sold: ${product['sell_price']}, Sales: {product['sales']}")
+    col1.text(f"{product['name']} - Bought: {default_currency} {product['buy_price']}, Sold: {default_currency} {product['sell_price']}, Sales: {product['sales']}")
     if col2.button(f"✏️ Edit {i}"):
         st.session_state["products"][i]["buy_price"] = st.number_input(f"Edit Buy Price for {product['name']}", value=product['buy_price'])
         st.session_state["products"][i]["sell_price"] = st.number_input(f"Edit Sell Price for {product['name']}", value=product['sell_price'])
@@ -67,7 +69,7 @@ if "expenses" not in st.session_state:
     st.session_state["expenses"] = []
 
 expense_name = st.sidebar.text_input("Expense Name")
-expense_amount = st.sidebar.number_input("Amount ($)", min_value=0.0, format="%.2f")
+expense_amount = st.sidebar.number_input(f"Amount ({default_currency})", min_value=0.0, format="%.2f")
 expense_type = st.sidebar.selectbox("Type", ["Monthly", "Yearly"])
 
 if st.sidebar.button("➕ Add Expense"):
@@ -79,8 +81,8 @@ if st.sidebar.button("➕ Add Expense"):
 st.subheader("💸 Expense List")
 monthly_expenses = sum([e["amount"] for e in st.session_state["expenses"] if e["type"] == "Monthly"])
 yearly_expenses = sum([e["amount"] for e in st.session_state["expenses"] if e["type"] == "Yearly"])
-st.write(f"**Total Monthly Expenses:** ${monthly_expenses}")
-st.write(f"**Total Yearly Expenses:** ${yearly_expenses}")
+st.write(f"**Total Monthly Expenses:** {default_currency} {monthly_expenses}")
+st.write(f"**Total Yearly Expenses:** {default_currency} {yearly_expenses}")
 
 # Profit Calculation
 profit = sum([(p["sell_price"] - p["buy_price"]) * p["sales"] for p in st.session_state["products"]]) - monthly_expenses
@@ -88,14 +90,14 @@ profit = sum([(p["sell_price"] - p["buy_price"]) * p["sales"] for p in st.sessio
 # Profit Sharing Calculation
 st.subheader("💰 Profit Sharing")
 for user, share in investment_shares.items():
-    st.write(f"{user}: ${profit * share:.2f} ({share*100:.2f}% share)")
+    st.write(f"{user}: {default_currency} {profit * share:.2f} ({share*100:.2f}% share)")
 
 # Currency Converter
 st.sidebar.header("💱 Currency Converter")
 currency_options = {"USD": 1.0, "EUR": 0.92, "GBP": 0.76, "CHF": 0.98}
-amount = st.sidebar.number_input("Amount in USD", min_value=0.0, format="%.2f")
+amount = st.sidebar.number_input(f"Amount in {default_currency}", min_value=0.0, format="%.2f")
 target_currency = st.sidebar.selectbox("Convert to", list(currency_options.keys()))
-converted_amount = amount * currency_options[target_currency]
+converted_amount = amount / currency_options[default_currency] * currency_options[target_currency]
 st.sidebar.write(f"Converted: {converted_amount:.2f} {target_currency}")
 
 # Export Options
