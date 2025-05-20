@@ -19,6 +19,3 @@ Ziel war es, n8n als Automatisierungsplattform innerhalb einer Cloud-Infrastrukt
 	•	Skalierbarkeit durch Docker möglich
 	•	Monitoring-Strategie (geplant) integriert in Konzept: UptimeRobot
 
-### Erreichte Kompetenzstufe:
-	•	Konzeptionelles Verständnis von Microservice-Kommunikation
-	•	Vorbereitung auf weiterführende Konzepte wie CI/CD oder Multicloud-Deployment
