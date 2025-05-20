@@ -15,9 +15,13 @@ Anforderungsanalyse
 ### Auswahl der Werkzeuge
 
 Komponente =	Rolle im System
+
 Docker = 	Containerisierung von n8n
+
 NGINX =		Reverse Proxy + HTTPS
+
 AWS EC2 =	Infrastrukturhost
+
 n8n = 		Automatisierungsplattform
 
 ### Testplanung (geplant)
