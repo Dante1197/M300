@@ -1,24 +1,31 @@
-# C1 – Konfiguration und Monitoring
+# Kompetenz C1 – Konfiguration und Monitoring
 
-### Kompetenzbeschreibung:
+### Beschreibung der Kompetenz
 
-Die Kompetenz C1 umfasst die Konfiguration von Systemen und das Monitoring von IT-Services. Auf der Beginner-Stufe bedeutet das, einfache Änderungen vorzunehmen, Datenmigration durchzuführen und ein Basis-Monitoring einzurichten. Auf fortgeschrittenem Niveau geht es um komplexe Servicekonfigurationen, Integration von Drittanbieter-Tools, Performance-Optimierungen und automatisiertes Monitoring.
+Die Kompetenz beinhaltet die Einrichtung und Anpassung von Systemdiensten sowie das Einrichten von Monitoringlösungen. Ziel ist es, Systeme stabil zu betreiben, Zustände sichtbar zu machen und nötige Änderungen kontrolliert vorzunehmen.
 
-Geplante Umsetzung im Projekt:
+### Umsetzung in meinem Projekt
 
-Im Rahmen meines Projekts plane ich, n8n in einem Docker-Container zu betreiben und über NGINX öffentlich verfügbar zu machen. Dabei sind mehrere Konfigurations- und Monitoring-Aufgaben vorgesehen:
+### Konfiguration
+	•	Die Containerisierung mit Docker erlaubt es, n8n einfach und reproduzierbar zu starten.
+	•	Der NGINX-Container wird so konfiguriert, dass er Anfragen per HTTPS (SSL-Zertifikat via Let’s Encrypt) an n8n weiterleitet.
+	•	Es wird ein Docker-Compose-Setup erstellt, das sowohl n8n als auch NGINX orchestrationstechnisch verbindet.
+	•	Planung: Konfiguration wird versioniert über GitHub gepflegt.
 
-### Geplante Punkte:
-	•	Erstellung und Anpassung von Dockerfile und docker-compose.yml
-	•	Konfiguration von NGINX als Reverse Proxy mit SSL-Zertifikat
-	•	Einrichtung von Portfreigaben und Firewall-Regeln
-	•	Basis-Monitoring über UptimeRobot zur Verfügbarkeitsprüfung der n8n-Weboberfläche
-	•	Geplante Erweiterung: Webhook-Trigger auf Fehlerstatus zur Selbstüberwachung
+### Monitoring
+	•	Für die erste Ausbaustufe wurde UptimeRobot gewählt:
+	•	Externes Monitoring über HTTP/HTTPS
+	•	Kostenlos, einfach einzurichten
+	•	Zeigt direkt die Erreichbarkeit des n8n-Endpoints
+	•	Weitere mögliche Monitoring-Tools (z. B. Prometheus, Grafana) wurden geprüft, aber vorerst zurückgestellt.
 
-### Weiterführende Planung:
-	•	Optionale Integration eines zusätzlichen Monitoring-Dienstes wie Prometheus
-	•	Logging über n8n-Interna (z. B. Workflow-Failures sichtbar machen)
+### Änderungsmanagement (geplant)
+	•	Änderungen an der docker-compose.yml, NGINX-Konfiguration oder n8n-Einstellungen werden dokumentiert.
+	•	Ziel: Nachvollziehbare Konfigurationshistorie im GitHub-Repo.
+	•	Notwendige Anpassungen (z. B. an API-Keys, Ports, Ressourcen) werden über .env-Dateien verwaltet.
 
-### Erwartete Kompetenzentwicklung:
-	•	Verständnis der Zusammenhänge zwischen Konfiguration, Netzwerkinfrastruktur und Monitoring
-	•	Anwendung von Best Practices bei der Absicherung und Überwachung eines Cloud-Dienstes
+### Eingesetzte Technologien
+	•	Docker + Docker Compose
+	•	NGINX (für Routing & SSL)
+	•	UptimeRobot (Monitoring)
+
