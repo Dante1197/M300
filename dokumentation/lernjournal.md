@@ -38,31 +38,33 @@ Natürlich! Hier ist dein Lernjournal-Eintrag für heute (20. Mai 2025) im saube
 # 🧠 Lernjournal – Woche 21 (20.05.2025)
 
 ### Tagesziele
-	•	Formatierung und Strukturierung der Dokumentation für GitHub
-	•	Erstellung der Kompetenznachweise ab Buchstabe B (Kompetenzmatrix)
-	•	Detaillierte Ausarbeitung der Kompetenzen B1, C1, D1 nach dem A1-Beispiel
-	•	Theoretische Fertigstellung des Dokumentationskonzepts vor praktischer Umsetzung
+- Formatierung und Strukturierung der Dokumentation für GitHub
+- Erstellung der Kompetenznachweise ab Buchstabe B (Kompetenzmatrix)
+- Detaillierte Ausarbeitung der Kompetenzen B1, C1, D1 nach dem A1-Beispiel
+- Theoretische Fertigstellung des Dokumentationskonzepts vor praktischer Umsetzung
 
 ### Erreichte Tagesresultate
-	•	Kompetenznachweise erstellt für:
- 	•	[A1 – Service Erhebung](dokumentation/A1_service_erhebung.md)
-	•	[B1 – Planung der Umgebung](dokumentation/B1_entwicklung_eines_integrationskonzepts.md)
-	•	[C1 – Monitoring und Logging](dokumentation/C1_konfiguration_und_monitoring.md) (UptimeRobot)
-	•	[D1 – Netzwerkverbindungen](dokumentation/D1_aufbau_von_netzwerkverbindungen.md) (NGINX Reverse Proxy, Docker-Netzwerk, Elastic IP)
-	•	Sicherheitskonzept konkretisiert (Zugriffsmanagement, Firewall, HTTPS)
-	•	Projektumsetzung weiter vorbereitet (IPERKA finalisiert, klare Zielsetzung)
+- Kompetenznachweise erstellt für:
+- [A1 – Service Erhebung](dokumentation/A1_service_erhebung.md)
+- [B1 – Planung der Umgebung](dokumentation/B1_entwicklung_eines_integrationskonzepts.md)
+- [C1 – Monitoring und Logging](dokumentation/C1_konfiguration_und_monitoring.md) (UptimeRobot)
+- [D1 – Netzwerkverbindungen](dokumentation/D1_aufbau_von_netzwerkverbindungen.md) (NGINX Reverse Proxy, Docker-Netzwerk, Elastic IP)
+- Sicherheitskonzept konkretisiert (Zugriffsmanagement, Firewall, HTTPS)
+- Projektumsetzung weiter vorbereitet (IPERKA finalisiert, klare Zielsetzung)
 
 ### Aufgetretene Probleme
-	•	Schwierigkeit, CI/CD sinnvoll in das Projekt zu integrieren → bewusste Entscheidung, es nicht einzubauen
-	•	Herausforderung, Monitoring-Lösung sinnvoll umzusetzen → Entscheidung für UptimeRobot als einfaches, externes Tool mit klarem Nutzen
+- Schwierigkeit, CI/CD sinnvoll in das Projekt zu integrieren → bewusste Entscheidung, es nicht einzubauen
+- Herausforderung, Monitoring-Lösung sinnvoll umzusetzen → Entscheidung für UptimeRobot als einfaches, externes Tool mit klarem Nutzen
 
 ### Eingesetzte Ressourcen
-	•	Austausch mit ChatGPT zur Kompetenzstrukturierung und Formatierung
-	•	Recherche auf:
-	•	[UptimeRobot.com](Uptimerobot.com)  
-	•	[NGINX Reverse Proxy Guide](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/)
+- Austausch mit ChatGPT zur Kompetenzstrukturierung und Formatierung
+- Recherche auf:
+- [UptimeRobot.com](Uptimerobot.com)  
+- [NGINX Reverse Proxy Guide](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/)
 
 ### Praktisch angewandtes Wissen
-	•	Strukturierung von Projekt-Kompetenznachweisen für GitHub
-	•	Sicherheitstechnisches Denken im Netzwerkbereich (Firewall, Zugriff, Reverse Proxy)
+- Strukturierung von Projekt-Kompetenznachweisen für GitHub
+- Sicherheitstechnisches Denken im Netzwerkbereich (Firewall, Zugriff, Reverse Proxy)
+
+---
 
