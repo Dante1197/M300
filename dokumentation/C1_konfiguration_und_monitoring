@@ -1,0 +1,24 @@
+# C1 – Konfiguration und Monitoring
+
+### Kompetenzbeschreibung:
+
+Die Kompetenz C1 umfasst die Konfiguration von Systemen und das Monitoring von IT-Services. Auf der Beginner-Stufe bedeutet das, einfache Änderungen vorzunehmen, Datenmigration durchzuführen und ein Basis-Monitoring einzurichten. Auf fortgeschrittenem Niveau geht es um komplexe Servicekonfigurationen, Integration von Drittanbieter-Tools, Performance-Optimierungen und automatisiertes Monitoring.
+
+Geplante Umsetzung im Projekt:
+
+Im Rahmen meines Projekts plane ich, n8n in einem Docker-Container zu betreiben und über NGINX öffentlich verfügbar zu machen. Dabei sind mehrere Konfigurations- und Monitoring-Aufgaben vorgesehen:
+
+### Geplante Punkte:
+	•	Erstellung und Anpassung von Dockerfile und docker-compose.yml
+	•	Konfiguration von NGINX als Reverse Proxy mit SSL-Zertifikat
+	•	Einrichtung von Portfreigaben und Firewall-Regeln
+	•	Basis-Monitoring über UptimeRobot zur Verfügbarkeitsprüfung der n8n-Weboberfläche
+	•	Geplante Erweiterung: Webhook-Trigger auf Fehlerstatus zur Selbstüberwachung
+
+### Weiterführende Planung:
+	•	Optionale Integration eines zusätzlichen Monitoring-Dienstes wie Prometheus
+	•	Logging über n8n-Interna (z. B. Workflow-Failures sichtbar machen)
+
+### Erwartete Kompetenzentwicklung:
+	•	Verständnis der Zusammenhänge zwischen Konfiguration, Netzwerkinfrastruktur und Monitoring
+	•	Anwendung von Best Practices bei der Absicherung und Überwachung eines Cloud-Dienstes
