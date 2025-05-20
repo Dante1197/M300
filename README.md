@@ -1,10 +1,14 @@
 ## M300 Portfolio
-Kompetenz
+
+### Kompetenz
 Konfiguriert plattformübergreifende Services nach Vorgabe für eine heterogene Systemumgebung. Nimmt die Services in Betrieb, führt Tests durch und dokumentiert das Gesamtsystem.
 
-Objekt
+### Objekt
 Clients, Server (File-, Print-, DNS-, DHCP-, Directory-Services) und Umsysteme mit unterschiedlichen Betriebssystemen in einem einfachen Netzwerk.
 
+### Inhalt 
+[Lernjournal](M300/dokumentation/lernjournal.md)
+[IPERKA](M300/dokumentation/iperka.md)
 
 ![image](https://github.com/user-attachments/assets/a587f400-82ed-4bfd-8055-acb152757de3)
 
