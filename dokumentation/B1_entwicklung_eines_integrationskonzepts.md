@@ -1,20 +1,37 @@
-# B1 – Entwicklung eines Integrationskonzepts
+# Kompetenz B1 – Entwicklung eines Integrationskonzepts
 
-### Kompetenzbeschreibung:
+### Beschreibung der Kompetenz
 
-Die Kompetenz B1 bezieht sich auf die Fähigkeit, ein Integrationskonzept für IT-Services zu entwerfen. Auf der Beginner-Stufe bedeutet das, einfache Anforderungen zu erfassen und ein grundlegendes Netzwerkdesign zu erstellen. Auf Advanced-Niveau geht es um umfassende Deployment-Strategien, Monitoring- und Wartungskonzepte.
+Die Kompetenz umfasst die Planung und Erstellung eines Konzepts zur Integration von Services, Tools und Systemkomponenten. Ziel ist es, ein konsistentes, funktionierendes Gesamtsystem mit durchdachter Struktur zu entwerfen.
 
-### Projektbezug:
+### Umsetzung in meinem Projekt
 
-Ziel war es, n8n als Automatisierungsplattform innerhalb einer Cloud-Infrastruktur (AWS EC2) zu betreiben. Dafür wurde ein durchdachtes Integrationskonzept entwickelt.
+Anforderungsanalyse
+	•	Ziel: n8n soll in der Cloud laufen und extern erreichbar sein.
+	•	Der Dienst muss sicher und stabil laufen – auch bei längerer Uptime.
+	•	Die Automatisierung soll auch AI-Funktionalität beinhalten (z. B. durch gebrauch von der Gemini-API)
+	•	NGINX dient als Reverse Proxy zur externen Erreichbarkeit und SSL-Terminierung.
 
-### geplannte Punkte:
-	•	Auswahl der Integrationsarchitektur: n8n auf Docker mit Reverse Proxy
-	•	Design eines einfachen Netzwerkplans mit Cloud-Komponenten (EC2, Docker, NGINX)
-	•	Planung der Kommunikationswege zwischen Client, NGINX und n8n-Container
-	•	Basis-Implementierungsplan zur Einrichtung des Docker-Containers und des Proxys
+### Auswahl der Werkzeuge
 
-### Erweiterte Planung:
-	•	Detaillierte Service-Integration: Zugriff auf n8n via Domain und HTTPS
-	•	Monitoring-Strategie (geplant) integriert in Konzept: UptimeRobot
+Komponente =	Rolle im System
+Docker = 	Containerisierung von n8n
+NGINX =		Reverse Proxy + HTTPS
+AWS EC2 =	Infrastrukturhost
+n8n = 		Automatisierungsplattform
 
+### Testplanung (geplant)
+	•	Zugriff von extern auf n8n über HTTPS testen
+	•	Testen der Workflows mit Beispiel-Automationen
+	•	Neustart/Fehlertoleranz simulieren (Container-Resilienz)
+	•	Später: Uptime-Monitoring über UptimeRobot
+
+### Eingesetzte Technologien
+	•	Docker
+	•	NGINX
+	•	AWS EC2
+	•	n8n
+
+### Nachweise
+	•	Projektübersicht: IPERKA.md
+	•	Architektur-Skizze geplant
