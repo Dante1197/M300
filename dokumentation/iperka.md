@@ -11,7 +11,7 @@ Ich möchte ein Automatisierungsprojekt realisieren, bei dem ich n8n in einem Do
 	•	n8n verstehen und produktiv einsetzen
 	•	Projekt mit Docker und NGINX realisieren
 	•	GitHub als Versionskontrolle korrekt nutzen
-	•	Monitoring/Logging über UptimeRobot oder Prometheus planen
+	•	Monitoring/Logging über UptimeRobot planen
 
 ---
 
@@ -26,7 +26,7 @@ Ich möchte ein Automatisierungsprojekt realisieren, bei dem ich n8n in einem Do
 	•	GitHub-Repository strukturieren
 	•	Lernjournal wöchentlich führen
 	•	Kompetenzen in separaten .md-Dateien dokumentieren
-	•	UptimeRobot oder Prometheus für Monitoring einbinden
+	•	UptimeRobot für Monitoring einbinden
 
 ⸻
 
@@ -36,7 +36,8 @@ Ich möchte ein Automatisierungsprojekt realisieren, bei dem ich n8n in einem Do
 	•	Nutzung von Docker und NGINX zur Skalierbarkeit und Trennung der Dienste
 	•	n8n als Automatisierungstool, da es Open Source und UI-basiert ist
 	•	GitHub Actions als einfaches Einstiegsmittel für DevOps-Prozesse
-	•	UptimeRobot als leichter Einstieg ins Monitoring (später Prometheus optional)
+	•	UptimeRobot als leichter Einstieg ins Monitoring 
+ 
 
 ⸻
 
@@ -63,10 +64,8 @@ Ich möchte ein Automatisierungsprojekt realisieren, bei dem ich n8n in einem Do
 ## A – Auswerten
 
 	•	Projektziele wurden vollständig erreicht
-	•	Neue Technologien wie n8n, GitHub Actions und UptimeRobot/Prometheus wurden erfolgreich integriert
+	•	Neue Technologien wie n8n, GitHub Actions und UptimeRobot wurden erfolgreich integriert
 	•	Projekt sauber dokumentiert (IPERKA.md, lernjournal.md, Kompetenz-MDs)
 	•	Feedback vom Lehrer berücksichtigt
-	•	Grundlage für Erweiterungen gelegt (z. B. Cluster, weitere Automatisierungen, Multi-User-Systeme)
-
 
 
