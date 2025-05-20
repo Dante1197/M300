@@ -8,9 +8,10 @@ Clients, Server (File-, Print-, DNS-, DHCP-, Directory-Services) und Umsysteme m
 Inhalt: 
 Coming Soon
 
-![image](https://github.com/user-attachments/assets/8e99437f-d35e-4f1f-916d-38cf527810f9)
+![image](https://github.com/user-attachments/assets/1c97a5a2-3477-4785-87f0-a8e875b1cb01)
 
-![image](https://github.com/user-attachments/assets/98d26405-89c9-422d-a913-f24deb4f314e)
+![image](https://github.com/user-attachments/assets/5eb22730-9ee0-4f81-9557-8401a7fe6179)
+
 
 Dieses Repo wird von Folgenden Mitglieder Geführt:
 @Dante_54
