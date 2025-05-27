@@ -68,3 +68,30 @@ Natürlich! Hier ist dein Lernjournal-Eintrag für heute (20. Mai 2025) im saube
 
 ---
 
+## 🧠Lernjournal – Woche 22 (27.05.2025)
+
+### Tagesziele
+- Zugang zum AWS Learner Lab erhalten und aktivieren
+- n8n AI-Workflow finalisieren und funktional zum Laufen bringen
+
+### Erreichte Tagesresultate
+- Zugang zum AWS Learner Lab erfolgreich eingerichtet
+- AI-basierter Workflow mit n8n ist voll funktionsfähig:
+- KI-Entscheidungslogik zur Qualifikation von Leads funktioniert
+
+### Aufgetretene Probleme
+- Initiale Schwierigkeiten beim Zugang zum AWS Learner Lab (keine TBZ mail) → mehrmals probiert, schlussendlich mit Erfolg
+- n8n hatte kleinere Probleme bei der Anbindung von Google Sheet API integration → gelöst durch richitge Konfiguration
+
+### Eingesetzte Ressourcen
+- AWS Learner Lab Zugang
+- n8n Dokumentation: https://docs.n8n.io
+- Diese [Youtube Video](https://www.youtube.com/watch?v=pWGXlZBGu4k&ab_channel=AustinReed%7CHorizonDev)
+- Austausch mit ChatGPT zur Fehlerbehebung
+
+### Praktisch angewandtes Wissen
+- Konfiguration von Cloud-Workflows mit n8n
+- Nutzung des AWS Learner Lab zur Entwicklung einer produktionsähnlichen Umgebung
+- Verständnis über funktionale Workflow-Ketten und Triggerlogik vertieft
+
+---
