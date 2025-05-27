@@ -7,7 +7,7 @@ Konfiguriert plattformübergreifende Services nach Vorgabe für eine heterogene 
 Clients, Server (File-, Print-, DNS-, DHCP-, Directory-Services) und Umsysteme mit unterschiedlichen Betriebssystemen in einem einfachen Netzwerk.
 
 ### Inhalt 
-[Lernjournal](dokumentation/learnjournal.md)
+[Lernjournal](dokumentation/lernjournal.md)
 
 [IPERKA](dokumentation/iperka.md)
 
