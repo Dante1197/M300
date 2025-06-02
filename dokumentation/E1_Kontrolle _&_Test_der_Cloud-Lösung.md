@@ -12,7 +12,7 @@ Funktionstests der Lösung
 - Der entwickelte Workflow in n8n (Projekt: Netspark) wurde nach jedem Schritt getestet.
 - Funktionen wie:
   - Formularinput via webhook
-	- GPT-Auswertung des Leads
+  - GPT-Auswertung des Leads
   - Conditional Logik (qualifiziert / nicht qualifiziert)
   - Logging in Google Sheets
 
@@ -23,14 +23,14 @@ wurden einzeln und im Gesamtkontext überprüft.
 Ich habe die Lösung mit folgenden Testeingaben überprüft:
 
 - Workflow mehrere male getestet verschiedene probleme behoben 
-- Nicht-qualifizierter Lead	überprüft ob es richtig ist
-- Ungültige Eingabe	leeres Feld / kein Text	Fehler-Handling
+- Nicht-qualifizierter Lead überprüft ob es richtig ist
+- Ungültige Eingabe leeres Feld / kein Text Fehler-Handling
 
 ## Monitoring
 
 Um sicherzustellen, dass der Dienst dauerhaft erreichbar ist, habe ich:
-	•	**UptimeRobot** eingerichtet zur Überwachung des n8n-Endpoints.
-	•	Alerts konfiguriert, damit ich bei Ausfällen benachrichtigt werde.
+- **UptimeRobot** eingerichtet zur Überwachung des n8n-Endpoints.
+- Alerts konfiguriert, damit ich bei Ausfällen benachrichtigt werde.
 
 --- 
 
