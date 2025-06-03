@@ -1,6 +1,4 @@
-# 🧠 Lernjournal – Modul 300 Projekt: n8n Cloud Automation
-
-## KW 20 (13.05.2025)
+# 🧠 Lernjournal – Woche 20 (13.05.2025)
 
 ### Tagesziele
 - Überblick über Modul 300 und Bewertungskriterien verschaffen
@@ -68,7 +66,7 @@ Natürlich! Hier ist dein Lernjournal-Eintrag für heute (20. Mai 2025) im saube
 
 ---
 
-## 🧠Lernjournal – Woche 22 (27.05.2025)
+# 🧠Lernjournal – Woche 22 (27.05.2025)
 
 ### Tagesziele
 - Zugang zum AWS Learner Lab erhalten und aktivieren
@@ -95,3 +93,45 @@ Natürlich! Hier ist dein Lernjournal-Eintrag für heute (20. Mai 2025) im saube
 - Verständnis über funktionale Workflow-Ketten und Triggerlogik vertieft
 
 ---
+
+Natürlich! Hier ist dein Lernjournal-Eintrag für heute (02.06.2025) im richtigen Format für deine lernjournal.md:
+
+---
+
+# 🧠 Lernjournal – Woche 23 (03.06.2025)
+
+### Geplante Tagesziele
+- An der praktischen Umsetzung des Projekts beginnen
+- Weitere Entwicklung und Tests des Tools Netspark auf einer lokalen Testumgebung
+- Vorbereitung auf die Migration zur AWS EC2-Instanz
+
+---
+
+### Erreichte Tagesresultate
+- Netspark lokal erfolgreich weiterentwickelt und getestet
+- Grundfunktionen wie Form-Eingabe, KI-Verarbeitung und E-Mail-Benachrichtigung sind funktional
+- Vorbereitung auf die Übertragung der lokalen Umgebung zur AWS-Cloud wurde begonnen (Installationstests, Reverse Proxy, etc.)
+
+---
+
+### Aufgetretene Probleme und Reflexion
+- Teilweise Probleme mit lokalen Ports und Umgebungsvariablen beim Starten des lokalen Servers
+- Fehlerhafte Rückgabe vom KI-Modul bei ungültiger Formateingabe → durch Validierungs-Node gelöst
+- Es war hilfreich, die lokale Umgebung vollständig durchzutesten, bevor die AWS-Migration erfolgt
+
+**Reflexion:**
+Der heutige Tag hat gezeigt, wie wichtig eine solide lokale Testumgebung ist. Probleme lassen sich so isolieren und schneller lösen, ohne ständig auf die Cloud-Infrastruktur angewiesen zu sein. Für die Migration ist das Setup nun gut vorbereitet.
+
+---
+
+### Eingesetzte Ressourcen
+- Eigene lokale Docker-Testumgebung mit n8n
+- OpenAI API-Dokumentation
+- Eigene Notizen zu Netspark
+
+---
+
+### Praktische Anwendung
+- Netspark-Workflow lokal weiterentwickelt, Workflow auteilung hat stattgefunden
+- Erfolgreiches Testen mehrerer Szenarien für Lead-Qualifikation
+- Vorbereitung der Struktur und Docker-Konfiguration für den kommenden EC2-Transfer
