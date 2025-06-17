@@ -135,3 +135,112 @@ Der heutige Tag hat gezeigt, wie wichtig eine solide lokale Testumgebung ist. Pr
 - Netspark-Workflow lokal weiterentwickelt, Workflow auteilung hat stattgefunden
 - Erfolgreiches Testen mehrerer Szenarien für Lead-Qualifikation
 - Vorbereitung der Struktur und Docker-Konfiguration für den kommenden EC2-Transfer
+
+---
+
+# 🧠 Lernjournal – Dienstag, 10.06.2025
+
+### Geplante Tagesziele
+- Entwicklung einer verbesserten, intelligenteren Version von Netspark v2
+- Implementierung eines Item-Loops zur Verarbeitung mehrerer Leads
+- Integration eines leistungsfähigeren LLM (openai-o4-latest)
+- Fehlerfreie Strukturierung und Optimierung des bestehenden n8n-Workflows
+
+--- 
+
+### Erreichte Tagesresultate
+
+Loop-Funktion zur Verarbeitung von Leads
+- Die neue Version verwendet eine Loop Over Items Node, um automatisch über mehrere Zeilen aus dem Google Sheet zu iterieren (Unqualified Leads).
+- Jeder Datensatz wird einzeln verarbeitet, wodurch Skalierbarkeit und Fehlertoleranz massiv verbessert wurden.
+
+### Technische Optimierungen
+- Die Architektur erlaubt zukünftig:
+- Den Austausch des LLMs (z. B. GPT-4o, Claude 3 etc.)
+- Integration externer API-Checks (z. B. Scoring, Standortvalidierung)
+- Live-Monitoring des Flows via Trigger und Webhooks
+
+---
+
+### Reflexion & Learnings
+- Durch das Einfügen der Loop-Logik konnte die LLM-Nutzung deutlich effizienter gestaltet werden – keine Massenauswertung, sondern intelligente Einzelverarbeitung.
+- Die Modularisierung erleichtert die Wartung und spätere Migration auf Cloud-Umgebungen wie AWS.
+- Der KI-Agent agiert nicht mehr als Filter auf ein gesamtes Dataset, sondern reagiert kontextuell auf jeden einzelnen Eintrag – das erhöht die Genauigkeit der Qualifikation drastisch.
+
+--- 
+
+### Tools & Technologien
+- n8n.io (Workflow-Automatisierung)
+- OpenAI Chat Model
+- Google Sheets & Drive API
+- Custom Code Nodes (JavaScript) für Parsing, Formatierung und Evaluation
+- Lokale n8n-Testumgebung, vorbereitet auf spätere AWS-Migration
+
+
+
+# 🧠 Lernjournal – Dienstag, 17.06.2025
+
+### Geplante Tagesziele
+- Praktische Umsetzung: Vollständige Bereitstellung von n8n mit Netspark draufgespitzt auf einer AWS EC2 Instanz
+- Konfiguration von HTTPS-Zugriff mit DuckDNS und Let’s Encrypt
+- Fehlerbehebung bei Google OAuth Redirect URI
+- Integration eines Monitoringsystems (UptimeRobot)
+
+---
+
+### Erreichte Tagesresultate
+
+**EC2 Setup & n8n Deployment**
+- Ubuntu 20.04 Instanz via AWS EC2 gestartet
+- Sicherheitsgruppen für Ports 22, 80, 443 korrekt eingerichtet
+- Verbindung über SSH (Schlüsselberechtigung mittels chmod 400 korrigiert)
+- Docker installiert und n8n mit Umgebungsvariablen (inkl. Basic Auth) im Container gestartet
+
+**Docker-Konfiguration**
+- n8n Container mit persistentem Volume (~/.n8n) eingerichtet
+- Secure Cookies deaktiviert zur Fehlerbehebung in Safari
+- Portkonflikt gelöst durch Stoppen und Entfernen des alten Containers
+
+**HTTPS via DuckDNS & NGINX**
+- DuckDNS-Domain https://netspark.duckdns.org registriert und konfiguriert
+- Reverse Proxy mit NGINX eingerichtet
+- Zertifikat von Let’s Encrypt erfolgreich via Certbot eingerichtet
+- HTTPS-Zugriff funktionierte danach stabil
+
+**Google OAuth Problem gelöst**
+- Fehler redirect_uri_mismatch bei Google Sheets OAuth
+- Lösung: Redirect URI in Google OAuth Console angepasst auf:
+https://netspark.duckdns.org/rest/oauth2-credential/callback
+- Docker-Container neu gestartet mit korrekten Umgebungsvariablen:
+WEBHOOK_URL und VUE_APP_URL_BASE_API → öffentliche Domain statt localhost
+
+**Monitoring mit UptimeRobot**
+- Öffentliche URL (https://netspark.duckdns.org) bei UptimeRobot hinzugefügt
+- Funktionierende Verfügbarkeitserkennung bestätigt
+
+--- 
+
+### Reflexion & Probleme
+- Die HTTPS-Einrichtung und das OAuth Redirect URI Debugging erforderten präzises Arbeiten und gutes Verständnis von Cloud, Reverse Proxy und Auth-Mechanismen
+- Trotz Komplexität der Konfiguration konnte der gesamte Stack erfolgreich produktionsreif aufgebaut werden
+- Erkenntnis: Verständnis für Domains, Proxies und OAuth ist kritisch für skalierbare Webanwendungen
+
+--- 
+
+### Eingesetzte Ressourcen
+- n8n Documentation
+- DuckDNS
+- Certbot Anleitung Ubuntu + NGINX
+- Google Cloud OAuth Credentials Portal
+- Eigene EC2-Instanz (AWS)
+- UptimeRobot
+
+--- 
+
+### Praktische Anwendung
+- Erfolgreiche Implementierung eines vollständigen Cloud-Deployments von Netspark:
+- Zugriff über HTTPS
+- Reverse Proxy mit NGINX
+- Authentifizierung via Google OAuth 2.0
+- Monitoring über externen Service
+
