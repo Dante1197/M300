@@ -1,7 +1,9 @@
 # Installation & Konfiguration: n8n auf AWS EC2
 
 Projekt: Deployment von NetSpark = n8n mit Docker, HTTPS (Let’s Encrypt), DuckDNS & Google OAuth
+
 Datum: 17. Juni 2025
+
 System: Ubuntu 20.04 (auf AWS EC2)
 
 ---
