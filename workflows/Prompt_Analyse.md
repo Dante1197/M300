@@ -1,6 +1,6 @@
 ## 🧠 GPT Qualifier Agent – KI-Profilanalyse zur Lead-Qualifikation
 
-Der folgende [Prompt](workflows/Prompt.md) bildet die Grundlage für den AI-gestützten Qualifizierungsprozess innerhalb von **Netspark**. Er steuert das Verhalten eines GPT-4o-Agenten, der automatisiert entscheidet, ob Instagram-Profile als potenziell qualifizierte Leads gelten.
+Der folgende [Prompt](M300/workflows/Prompt.md) bildet die Grundlage für den AI-gestützten Qualifizierungsprozess innerhalb von **Netspark**. Er steuert das Verhalten eines GPT-4o-Agenten, der automatisiert entscheidet, ob Instagram-Profile als potenziell qualifizierte Leads gelten.
 
 ---
 
