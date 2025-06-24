@@ -36,4 +36,4 @@ Diese Kompetenz umfasst das Einrichten, Überprüfen und Dokumentieren von Netzw
 	•	AWS Security Groups
 
 ## Nachweise
-	•	Netzwerksetup geplant in /infrastructure/nginx.conf
+	•	Netzwerksetup geplant in /dokumentation/installations-doku.md
