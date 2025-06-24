@@ -244,3 +244,64 @@ WEBHOOK_URL und VUE_APP_URL_BASE_API → öffentliche Domain statt localhost
 - Authentifizierung via Google OAuth 2.0
 - Monitoring über externen Service
 
+
+---
+
+# 🧠 Lernjournal – Dienstag, 24.06.2025
+
+### Geplante Tagesziele
+- Ausführliche Dokumentation des gesamten Systems rund um Netspark
+- Erstellung einer technischen Readme für den Workflow
+- Analyse und Ablage des eingesetzten Prompts
+- Strukturierung und Optimierung des GitHub-Repositories
+
+---
+
+###Erreichte Tagesresultate
+
+#### Installationsdokumentation
+- Vollständige Markdown-Dokumentation erstellt mit allen Konfigurationsschritten:
+- AWS EC2 Deployment
+- Docker Setup
+- NGINX Reverse Proxy
+- HTTPS via DuckDNS & Let’s Encrypt
+- Google OAuth Redirect URI Fix
+
+
+#### README.md für Netspark-Workflow
+- Strukturierte Readme im Verzeichnis /workflows erstellt
+- Aufbau, Zweck und Ablauf jedes Workflow-Elements detailliert erklärt
+- Besonderes Augenmerk auf:
+- Loop-Mechanik
+- KI-Analyse durch GPT
+- Sheet-Integration für qualifizierte Leads
+
+#### Prompt hochgeladen & analysiert
+- Verwendeter Prompt als .md-Datei gespeichert und dokumentiert
+- Analytische Reflexion geschrieben: Stärken, Schwächen, Wirkung
+- Ziel: Transparenz über die Logik der KI-Entscheidung und Optimierungspotenzial
+
+#### GitHub Repository verbessert
+- Verzeichnisstruktur aufgeräumt und logisch gegliedert
+- Irrelevante Dateien entfernt, Readmes hinzugefügt
+
+---
+
+### Reflexion & Probleme
+- Strukturierung und Dokumentation haben viel Zeit gekostet, sind aber essenziell für die Wartbarkeit des Projekts
+- Die Analyse des Prompts zeigte, wie sensibel GPT auf Formulierungen reagiert – kleine Anpassungen ändern die gesamte Entscheidungslogik
+- Stolz auf das Resultat: ein durchdachtes, öffentlich verständliches Projekt-Repository mit klarer Dokumentation
+
+--- 
+
+### Eingesetzte Ressourcen
+- Eigenes GitHub Repository (private)
+- Vorwissen aus OAuth-, Docker- und NGINX-Konfiguration
+
+--- 
+
+### Praktische Anwendung
+- nur mein Github und die nachkontrolle in AWS & n8n 
+
+
+
