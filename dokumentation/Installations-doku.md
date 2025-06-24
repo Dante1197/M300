@@ -32,7 +32,7 @@ System: Ubuntu 20.04 (auf AWS EC2)
 	•	Beispiel-IP: 34.192.222.54
 	4.	Hinweis: Diese IP ist jetzt dauerhaft mit deiner Instanz verknüpft, auch nach Neustarts.
 
-⸻
+---
 
 ### 1.3 SSH-Zugriff auf die EC2-Instanz
 
@@ -41,7 +41,7 @@ chmod 400 ~/Downloads/netspark-ec2.pem
 ssh -i "~/Downloads/netspark-ec2.pem" ubuntu@34.192.222.54
 ```
 
-⸻
+---
 
 ### 2. 🐳 Docker & n8n Installation
 
