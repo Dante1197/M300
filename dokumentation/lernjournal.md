@@ -257,7 +257,7 @@ WEBHOOK_URL und VUE_APP_URL_BASE_API → öffentliche Domain statt localhost
 
 ---
 
-###Erreichte Tagesresultate
+### Erreichte Tagesresultate
 
 #### Installationsdokumentation
 - Vollständige Markdown-Dokumentation erstellt mit allen Konfigurationsschritten:
