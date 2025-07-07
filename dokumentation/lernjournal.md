@@ -304,9 +304,8 @@ WEBHOOK_URL und VUE_APP_URL_BASE_API → öffentliche Domain statt localhost
 - nur mein Github und die nachkontrolle in AWS & n8n 
 
 
-Natürlich! Hier ist dein Lernjournal-Eintrag für Dienstag, 01.07.2025 im exakt gleichen Stil wie zuvor:
+---
 
-⸻
 
 # 🧠 Lernjournal – Dienstag, 01.07.2025
 
