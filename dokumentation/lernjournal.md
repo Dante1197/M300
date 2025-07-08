@@ -351,6 +351,39 @@ WEBHOOK_URL und VUE_APP_URL_BASE_API → öffentliche Domain statt localhost
 - Durch strukturierte Planung konnte der finale Projekttag effizient genutzt werden
 
 
+# 🧠 Lernjournal – Dienstag, 08.07.2025
 
+### Geplante Tagesziele
+- Erstellung von Versionablauf von Netspark
+- Ready machen für abgabe
+- Kompetenz Matrix ausfüllen
+
+--- 
+
+### Erreichte Tagesresultate
+
+**Feinschliff am GitHub Repository**
+- Versionablauf Markdown File Erstellet + Jede Version von Netspark beschrieben
+- Jedes MD durchgeschaut für schriftliche fehler
+- Kompetenz Matrix erfolgreich ausgefüllt
+
+---
+
+### Reflexion & Probleme
+- der Letzte Tag war heute, ich bin froh das ich mich für diese projekt entschieden habe.
+- So viel neues gelernt
+- Die KI welt noch genauer kennengelernt
+- Prompt engineering kennengelernt 
+
+---
+
+### Eingesetzte Ressourcen
+- GitHub (Webinterface)
+- Whatsapp (Alte bilder von Netspark Versionen) 
+
+---
+
+### Praktische Anwendung
+- Projekt ist nun vollständig dokumentiert und abgabebereit
 
 
