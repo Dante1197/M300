@@ -9,7 +9,7 @@ Die Kompetenz umfasst die Planung und Erstellung eines Konzepts zur Integration 
 Anforderungsanalyse
 	•	Ziel: n8n soll in der Cloud laufen und extern erreichbar sein.
 	•	Der Dienst muss sicher und stabil laufen – auch bei längerer Uptime.
-	•	Die Automatisierung soll auch AI-Funktionalität beinhalten (z. B. durch gebrauch von der Gemini-API)
+	•	Die Automatisierung soll auch AI-Funktionalität beinhalten (z. B. durch gebrauch von der OpenAi-API)
 	•	NGINX dient als Reverse Proxy zur externen Erreichbarkeit und SSL-Terminierung.
 
 ### Auswahl der Werkzeuge
