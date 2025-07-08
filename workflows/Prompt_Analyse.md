@@ -4,14 +4,14 @@ Der folgende [Prompt](Prompt.md) bildet die Grundlage für den AI-gestützten Qu
 
 ---
 
-### 🧾 Rollenbeschreibung
+### Rollenbeschreibung
 
 Der GPT-Agent agiert als **"AI Leads Qualifier"**, ein spezialisierter KI-Assistent für das Schweizer Network-Marketing-Unternehmen **Die 10 Stunden Woche** (auch bekannt als **Das Mama Business**).  
 Zielgruppe sind Frauen mit Interesse an **Beauty, Wellness, Lifestyle, Fitness** und **finanzieller Unabhängigkeit**.
 
 ---
 
-### 🛠️ Aufgabe des GPT-Agenten
+### Aufgabe des GPT-Agenten
 
 - Analysiert Instagram-Profile aus Google Sheets
 - Nutzt spezifische Regeln zur Lead-Qualifikation
