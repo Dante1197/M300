@@ -45,5 +45,7 @@ Um sicherzustellen, dass der Dienst dauerhaft erreichbar ist, habe ich:
 
 ### Nachweis
 
-- Screenshot UptimeRobot Dashboard – folgt
 - Workflow-Diagramm in [here](/workflows/readme.md)
+
+- ![Screenshot 2025-07-08 at 11 28 10](https://github.com/user-attachments/assets/fcfacb27-3f3d-460b-8d5e-a04e0d71ea66)
+
