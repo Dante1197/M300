@@ -1,6 +1,6 @@
 # F2 – Arbeit dokumentieren
 
-🧩 Kompetenzbeschreibung
+### Kompetenzbeschreibung
 
 Ich kann meine Arbeit nachvollziehbar dokumentieren, sodass sie für andere verständlich ist und ich selbst später darauf zurückgreifen kann. Dazu verwende ich geeignete Dokumentationsformen wie Markdown, Readme-Dateien, technische Berichte oder Versionskontrolle.
 
