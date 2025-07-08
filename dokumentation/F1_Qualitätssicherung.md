@@ -1,6 +1,6 @@
 # F1 – Qualitätssicherung durchführen
 
-### 🧩 Kompetenzbeschreibung
+### Kompetenzbeschreibung
 
 Ich kann die Qualität meiner Arbeit sicherstellen, indem ich systematisch überprüfe, ob das Ergebnis den Anforderungen entspricht. Dazu nutze ich geeignete Werkzeuge zur Kontrolle, Dokumentation und Korrektur.
 
