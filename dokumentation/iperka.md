@@ -66,6 +66,5 @@ Ich möchte ein Automatisierungsprojekt realisieren, bei dem ich n8n in einem Do
 	•	Projektziele wurden vollständig erreicht
 	•	Neue Technologien wie n8n, GitHub Actions und UptimeRobot wurden erfolgreich integriert
 	•	Projekt sauber dokumentiert (IPERKA.md, lernjournal.md, Kompetenz-MDs)
-	•	Feedback vom Lehrer berücksichtigt
 
 
