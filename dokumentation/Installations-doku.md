@@ -37,8 +37,8 @@ System: Ubuntu 20.04 (auf AWS EC2)
 ### 1.3 SSH-Zugriff auf die EC2-Instanz
 
 ```
-chmod 400 ~/Downloads/netspark-ec2.pem
-ssh -i "~/Downloads/netspark-ec2.pem" ubuntu@34.192.222.54
+chmod 400 /Users/dantepangione/Documents/EC2 - Netspark /Netspark ec2.pem
+ssh -i "/Users/dantepangione/Documents/EC2 - Netspark /Netspark ec2.pem" ubuntu@34.194.222.54
 ```
 
 ---
