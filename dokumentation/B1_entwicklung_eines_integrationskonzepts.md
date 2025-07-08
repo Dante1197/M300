@@ -20,6 +20,10 @@ Docker = 	Containerisierung von n8n
 
 NGINX =		Reverse Proxy + HTTPS
 
+DuckDNS = 	DNS um nicht über die IP verbinden zu müssen 
+
+Lets Encrypt = 	SSL Zertifikat 
+
 AWS EC2 =	Infrastrukturhost
 
 n8n = 		Automatisierungsplattform
