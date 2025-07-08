@@ -11,10 +11,10 @@ Die entwickelte Lösung wird systematisch kontrolliert, getestet und bei Bedarf 
 Funktionstests der Lösung
 - Der entwickelte Workflow in n8n (Projekt: Netspark) wurde nach jedem Schritt getestet.
 - Funktionen wie:
-  - Formularinput via webhook
-  - GPT-Auswertung des Leads
-  - Conditional Logik (qualifiziert / nicht qualifiziert)
-  - Logging in Google Sheets
+- Formularinput via webhook
+- GPT-Auswertung des Leads
+- Conditional Logik (qualifiziert / nicht qualifiziert)
+- Logging in Google Sheets
 
 wurden einzeln und im Gesamtkontext überprüft.
 
@@ -22,7 +22,7 @@ wurden einzeln und im Gesamtkontext überprüft.
 
 Ich habe die Lösung mit folgenden Testeingaben überprüft:
 
-- Workflow mehrere male getestet verschiedene probleme behoben 
+- Workflow mehrere male getestet verschiedene probleme behoben (z.b Qualifizierung war nicht genau --> LLM gewechselt) 
 - Nicht-qualifizierter Lead überprüft ob es richtig ist
 - Ungültige Eingabe leeres Feld / kein Text Fehler-Handling
 
